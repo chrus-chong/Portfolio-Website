@@ -3,8 +3,7 @@ import Projects from '../components/Projects/Projects'
 import Technologies from '../components/Technologies/Technologies'
 import Experience from '../components/Experience/Experience'
 import { Layout } from '../layout/Layout'
-import { Section } from '../components/GlobalComponents/GlobalComponents'
-import logo from '../../assets/Blueprints.gif'
+import logo from '/public/images/Blueprints.gif'
 import Image from 'next/image'
 
 const Home = () => {

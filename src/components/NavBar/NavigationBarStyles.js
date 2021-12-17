@@ -6,7 +6,7 @@ export const Link = styled.a`
   text-align: center;
   color: #1f51ff;
   transition: all 0.3s ease-in;
-  font-size: 0.9rem;
+  font-size: 1.6rem;
 
   &:hover {
     color: #39ff14;
@@ -30,7 +30,7 @@ export const Logo = styled.a`
   padding: 1rem 0;
   color: #faed27;
   font-weight: 800;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
 
   span {
     font-weight: 300;
