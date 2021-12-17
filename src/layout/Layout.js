@@ -16,6 +16,7 @@ export const Layout = ({ children }) => {
       <NavigationBar />
       <main>
         <div style={{ marginTop: 69 }}>{children}</div>
+        {/* need padding on top so that the navbar does not overlap with body content */}
       </main>
       <Footer />
     </Container>
