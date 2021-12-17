@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Footer from '../components/Footer/Footer'
-import Header from '../components/Header/Header'
+import NavigationBar from '../components/NavBar/NavigationBar'
 
 import styled from 'styled-components'
 
@@ -13,8 +13,10 @@ const Container = styled.div`
 export const Layout = ({ children }) => {
   return (
     <Container>
-      <Header />
-      <main>{children}</main>
+      <NavigationBar />
+      <main>
+        <div style={{ marginTop: 69 }}>{children}</div>
+      </main>
       <Footer />
     </Container>
   )
