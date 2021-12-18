@@ -3,7 +3,6 @@ import React from 'react'
 import {
   BlogCard,
   CardInfo,
-  ExternalLinks,
   GridContainer,
   HeaderThree,
   Hr,
@@ -23,7 +22,7 @@ import { projects } from './RecentProjectConstants'
 const Projects = () => (
   <Section nopadding id='projects'>
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Projectsg</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
@@ -38,13 +37,18 @@ const Projects = () => (
               <TitleContent>Stack</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>
+                  return (
+                    <Tag key={i} style={{ background: '#000000' }}>
+                      {t}
+                    </Tag>
+                    /* <Tag key={i}>{t}</Tag> */
+                  )
                 })}
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              <Tag href={p.visit}>Code</Tag>
+              <Tag href={p.source}>Source</Tag>
             </UtilityList>
           </BlogCard>
         )
