@@ -13,6 +13,14 @@ import htmlLogo from '/public/images/html-5.svg'
 import cssLogo from '/public/images/css-3.svg'
 import cLogo from '/public/images/c.svg'
 
+import reactLogo from '/public/images/react.svg'
+import reduxLogo from '/public/images/redux.svg'
+import mongodbLogo from '/public/images/mongodb.svg'
+import cypressLogo from '/public/images/cypress.svg'
+import javafxLogo from '/public/images/JavaFX.png'
+import gitLogo from '/public/images/git.svg'
+import figmaLogo from '/public/images/figma.svg'
+
 const Technologies = () => (
   <Section nopadding id='technologies'>
     <SectionDivider />
@@ -69,7 +77,64 @@ const Technologies = () => (
       />
     </div>
     <SectionText>I have worked with ....</SectionText>
-    <div className='technologiesDiv'></div>
+    <div className='technologiesDiv'>
+      <Image
+        src={reactLogo}
+        layout='intrinsic'
+        className={'reactLogo'}
+        alt='reactLogo'
+        width={50}
+        height={50}
+      />
+      <Image
+        src={reduxLogo}
+        layout='intrinsic'
+        className={'reduxLogo'}
+        alt='reduxLogo'
+        width={50}
+        height={50}
+      />
+      <Image
+        src={mongodbLogo}
+        layout='intrinsic'
+        className={'mongodbLogo'}
+        alt='mongodbLogo'
+        width={50}
+        height={50}
+      />
+      <Image
+        src={cypressLogo}
+        layout='intrinsic'
+        className={'cypressLogo'}
+        alt='cypressLogo'
+        width={50}
+        height={50}
+      />
+      <Image
+        src={javafxLogo}
+        layout='intrinsic'
+        className={'javafxLogo'}
+        alt='javafxLogo'
+        width={50}
+        height={50}
+      />
+      <Image
+        src={gitLogo}
+        layout='intrinsic'
+        className={'gitLogo'}
+        alt='gitLogo'
+        width={50}
+        height={50}
+      />
+      <Image
+        src={figmaLogo}
+        layout='intrinsic'
+        className={'figmaLogo'}
+        alt='figmaLogo'
+        width={50}
+        height={50}
+      />
+    </div>
   </Section>
 )
 
