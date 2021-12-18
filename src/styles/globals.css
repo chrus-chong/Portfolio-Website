@@ -36,3 +36,29 @@ a {
   align-items: center;
   justify-content: space-evenly;
 }
+
+.aboutDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: aquamarine;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.aboutTextDiv {
+  margin-left: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutTextDiv {
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+}
