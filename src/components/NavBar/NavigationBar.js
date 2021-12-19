@@ -15,9 +15,11 @@ const NavigationBar = () => {
         <span />
       </Dropdown>
       <Menu isOpen={isOpen}>
-        <Link href='#projects'> Projects </Link>
-        <Link href='#experience'> Experience </Link>
-        <Link href='#technologies'> Technologies </Link>
+        <div className='linkDiv'>
+          <Link href='#projects'> Projects </Link>
+          <Link href='#experience'> Experience </Link>
+          <Link href='#technologies'> Technologies </Link>
+        </div>
       </Menu>
     </Nav>
   )
