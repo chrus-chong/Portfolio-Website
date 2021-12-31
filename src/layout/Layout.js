@@ -1,7 +1,8 @@
 import React from 'react'
 
+import Header from '../components/Header/Header'
+import NavBar from '../components/NavBar/NavBar'
 import Footer from '../components/Footer/Footer'
-import NavigationBar from '../components/NavBar/NavigationBar'
 
 import styled from 'styled-components'
 
@@ -12,13 +13,12 @@ const Container = styled.div`
 `
 export const Layout = ({ children }) => {
   return (
-    <Container>
-      <NavigationBar />
-      <main>
-        <div style={{ marginTop: 69 }}>{children}</div>
-        {/* need padding on top so that the navbar does not overlap with body content */}
-      </main>
-      <Footer />
-    </Container>
+    <>
+      <NavBar />
+      <Container>
+        <main>{children}</main>
+        <Footer />
+      </Container>
+    </>
   )
 }

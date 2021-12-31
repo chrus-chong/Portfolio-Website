@@ -15,11 +15,21 @@ a {
   box-sizing: border-box;
 }
 
+.faIconBig {
+  color: #56bbff;
+  margin-right: 2rem;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
 .landingDiv {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: aquamarine;
+  background: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -27,7 +37,7 @@ a {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    background: aquamarine;
+    background: white;
   }
 }
 
@@ -41,7 +51,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: aquamarine;
+  background: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -66,4 +76,5 @@ a {
 .linkDiv {
   color: white;
   font-family: cursive;
+  font-weight: 800;
 }

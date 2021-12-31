@@ -18,8 +18,8 @@ const Landing = () => (
         layout='intrinsic'
         className={'landingImage'}
         alt='loading...'
-        width={400}
-        height={400}
+        width={700}
+        height={700}
       />
     </div>
   </Section>
