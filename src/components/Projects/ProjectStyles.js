@@ -82,6 +82,17 @@ export const UtilityList = styled.ul`
   margin: 2.5rem 0;
 `
 
+export const Social = styled.a`
+  color: #0000ff;
+  font-size: 1.9rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 15px;
+  transition: 0.5s;
+  &:hover {
+    background: #0000ff;
+  }
+`
+
 export const Tag = styled.a`
   color: #d4c0c0;
   font-size: 1.6rem;

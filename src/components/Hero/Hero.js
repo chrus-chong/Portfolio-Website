@@ -1,11 +1,10 @@
 import React from 'react'
 import {
-  Button,
   Section,
   SectionTitle,
   SectionText,
 } from '../GlobalComponents/GlobalComponents'
-import { Tag } from '../Projects/ProjectStyles'
+import { Social } from '../Projects/ProjectStyles'
 import { LeftSection } from './HeroStyles'
 import { FaGithub, FaLinkedin, FaSchool, FaEnvelope } from 'react-icons/fa'
 
@@ -31,15 +30,16 @@ const Hero = (props) => (
       </div>
 
       <SectionText>
-        <Tag href='https://github.com/chrus-chong'>
+        <Social href='https://github.com/chrus-chong' className='bigTag'>
           <FaGithub color={iconColour} /> Github
-        </Tag>
-        <Tag
+        </Social>
+        <Social
           href='https://www.linkedin.com/in/chrus-chong/'
           style={{ marginLeft: '3rem' }}
+          className='bigTag'
         >
           <FaLinkedin color={iconColour} /> LinkedIn
-        </Tag>
+        </Social>
       </SectionText>
     </LeftSection>
   </Section>
