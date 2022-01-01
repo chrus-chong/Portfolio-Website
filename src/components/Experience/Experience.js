@@ -65,6 +65,10 @@ const Experience = () => {
 
   return (
     <Section nopadding id='experience'>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <SectionDivider />
       <SectionTitle main>Experience</SectionTitle>
       <SectionText>placeholder text about experience</SectionText>

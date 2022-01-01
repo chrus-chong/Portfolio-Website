@@ -10,7 +10,6 @@ import logo from '/public/images/Blueprints.gif'
 
 const Landing = () => (
   <Section nopadding>
-    <SectionDivider />
     <div className='landingDiv'>
       <Hero />
       <Image

@@ -21,6 +21,10 @@ import { projects } from './RecentProjectConstants'
 
 const Projects = () => (
   <Section nopadding id='projects'>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     <SectionDivider />
     <SectionTitle main>Projectsg</SectionTitle>
     <GridContainer>

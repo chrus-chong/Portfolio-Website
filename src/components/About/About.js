@@ -23,18 +23,14 @@ const About = () => (
       />
       <div className='aboutTextDiv'>
         <SectionText>
-          Wenna Ramsbottom was thinking about Marion Gloop again. Marion was a
-          brutal teacher with scrawny hands and slimy fingers. Wenna walked over
-          to the window and reflected on her deprived surroundings. She had
-          always loved deserted Bangkok with its bitter, big beaches. It was a
-          place that encouraged her tendency to feel worried. Then she saw
-          something in the distance, or rather someone. It was the a brutal
-          figure of Marion Gloop. Wenna gulped. She glanced at her own
-          reflection. She was a mean, special, brandy drinker with ginger hands
-          and dirty fingers. Her friends saw her as a vigilant, vague vicar.
-          Once, she had even made a cup of tea for a bewildered old lady. But
-          not even a mean person who had once made a cup of tea for a bewildered
-          old lady, was prepared for what Marion had in store today.
+          I am currently a Year 2 Computer Science undergraduate at the National
+          University of Singapore.I love learning about the intricate computer
+          systems that we use or interact with on a daily basis. This is
+          especially true when I see the link between theory and practical
+          application of these concepts. While I am generally fond of creating
+          practical applications that look good and solve real-world
+          inconveniences, I am keen on pursuing a focus area in computer
+          security to safeguard sensitive information from unauthorised use.
         </SectionText>
       </div>
     </div>
