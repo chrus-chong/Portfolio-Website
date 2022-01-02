@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NavBar from '../components/NavBar/NavBar.js'
+import Navbar from '../components/NavBar/Navbar.js'
 import Footer from '../components/Footer/Footer.js'
 
 import styled from 'styled-components'
@@ -13,7 +13,7 @@ const Container = styled.div`
 export const Layout = ({ children }) => {
   return (
     <>
-      <NavBar />
+      <Navbar />
       <Container>
         <main>{children}</main>
       </Container>

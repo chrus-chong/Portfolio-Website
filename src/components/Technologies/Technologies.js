@@ -17,7 +17,7 @@ import reactLogo from '../../../public/images/react.svg'
 import reduxLogo from '../../../public/images/redux.svg'
 import mongodbLogo from '../../../public/images/mongodb.svg'
 import cypressLogo from '../../../public/images/cypress.svg'
-import javafxLogo from '../../../public/images/JavaFX.png'
+import javafxLogo from '../../../public/images/JavaFx.png'
 import gitLogo from '../../../public/images/git.svg'
 import figmaLogo from '../../../public/images/figma.svg'
 
