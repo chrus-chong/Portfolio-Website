@@ -1,8 +1,8 @@
 export default {
   // Temp fonts
   fonts: {
-    title: 'Snell Roundhand, cursive',
-    main: 'Snell Roundhand, cursive',
+    title: 'Nunito',
+    main: 'Nunito',
   },
   // Colors for layout
   colors: {},
