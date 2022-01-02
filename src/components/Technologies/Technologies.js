@@ -6,20 +6,20 @@ import {
   SectionTitle,
 } from '../GlobalComponents/GlobalComponents'
 import Image from 'next/image'
-import javaLogo from '/public/images/java.svg'
-import javascriptLogo from '/public/images/javascript.svg'
-import pythonLogo from '/public/images/python.svg'
-import htmlLogo from '/public/images/html-5.svg'
-import cssLogo from '/public/images/css-3.svg'
-import cLogo from '/public/images/c.svg'
+import javaLogo from '../../../public/images/java.svg'
+import javascriptLogo from '../../../public/images/javascript.svg'
+import pythonLogo from '../../../public/images/python.svg'
+import htmlLogo from '../../../public/images/html-5.svg'
+import cssLogo from '../../../public/images/css-3.svg'
+import cLogo from '../../../public/images/c.svg'
 
-import reactLogo from '/public/images/react.svg'
-import reduxLogo from '/public/images/redux.svg'
-import mongodbLogo from '/public/images/mongodb.svg'
-import cypressLogo from '/public/images/cypress.svg'
-import javafxLogo from '/public/images/JavaFX.png'
-import gitLogo from '/public/images/git.svg'
-import figmaLogo from '/public/images/figma.svg'
+import reactLogo from '../../../public/images/react.svg'
+import reduxLogo from '../../../public/images/redux.svg'
+import mongodbLogo from '../../../public/images/mongodb.svg'
+import cypressLogo from '../../../public/images/cypress.svg'
+import javafxLogo from '../../../public/images/JavaFX.png'
+import gitLogo from '../../../public/images/git.svg'
+import figmaLogo from '../../../public/images/figma.svg'
 
 const Technologies = () => (
   <Section nopadding id='technologies'>

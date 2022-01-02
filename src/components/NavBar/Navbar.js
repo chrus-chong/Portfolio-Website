@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import { FaFirstdraft, FaBars, FaTimes } from 'react-icons/fa'
 import Image from 'next/image'
-import logo from '/public/images/ChrusLogo.png'
+import logo from '../../../public/images/ChrusLogo.png'
 
 function Navbar() {
   const [click, setClick] = useState(false)

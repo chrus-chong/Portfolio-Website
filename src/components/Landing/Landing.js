@@ -6,7 +6,7 @@ import {
   SectionTitle,
 } from '../GlobalComponents/GlobalComponents'
 import Hero from '../Hero/Hero'
-import logo from '/public/images/Blueprints.gif'
+import logo from '../../../public/images/Blueprints.gif'
 
 const Landing = () => (
   <Section nopadding>

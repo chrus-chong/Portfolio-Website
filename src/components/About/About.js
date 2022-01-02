@@ -6,7 +6,7 @@ import {
   SectionText,
   SectionTitle,
 } from '../GlobalComponents/GlobalComponents.js'
-import aboutMeImage from '/public/images/AboutMePhoto.png'
+import aboutMeImage from '../../../public/images/AboutMePhoto.png'
 
 const About = () => (
   <Section nopadding id='about'>
