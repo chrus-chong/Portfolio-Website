@@ -1,8 +1,7 @@
 import React from 'react'
 
-import Header from '../components/Header/Header'
-import NavBar from '../components/NavBar/NavBar'
-import Footer from '../components/Footer/Footer'
+import NavBar from '../components/NavBar/NavBar.js'
+import Footer from '../components/Footer/Footer.js'
 
 import styled from 'styled-components'
 

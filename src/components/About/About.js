@@ -5,7 +5,7 @@ import {
   SectionDivider,
   SectionText,
   SectionTitle,
-} from '../GlobalComponents/GlobalComponents'
+} from '../GlobalComponents/GlobalComponents.js'
 import aboutMeImage from '/public/images/AboutMePhoto.png'
 
 const About = () => (

@@ -2,13 +2,13 @@ export const projects = [
   {
     title: 'Portfolio Website',
     description: 'Portfolio website built using React and Next JS',
-    image: '/images/AWE_demo.png',
+    image: '/images/Portfolio_demo.png',
     tags: ['React', 'Next JS'],
     source: 'https://github.com/chrus-chong/Portfolio-Website',
     id: 0,
   },
   {
-    title: 'Around the World in $80',
+    title: 'AWE80',
     description:
       'The wonderful experience that is travelling often poses challenges in splitting bills amongst friends during a trip. This app effectively splits bills between different contacts to serve this purpose.',
     image: '/images/AWE_demo.png',
