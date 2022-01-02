@@ -16,7 +16,7 @@ a {
 }
 
 .faIconBig {
-  color: #56bbff;
+  color: #072d4c;
   margin-right: 2rem;
 }
 
@@ -64,6 +64,7 @@ a {
 
 .aboutTextDiv {
   margin-left: 5rem;
+  max-width: 800px;
 }
 
 @media screen and (max-width: 768px) {

@@ -8,12 +8,12 @@ import { Social } from '../Projects/ProjectStyles'
 import { LeftSection } from './HeroStyles'
 import { FaGithub, FaLinkedin, FaSchool, FaEnvelope } from 'react-icons/fa'
 
-const iconColour = 'FF5678'
+const iconColour = '303c6c'
 
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle main center>
+      <SectionTitle main center className='name'>
         Chrus Chong
       </SectionTitle>
 

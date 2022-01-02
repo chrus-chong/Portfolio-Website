@@ -25,7 +25,13 @@ const Technologies = () => (
   <Section nopadding id='technologies'>
     <SectionDivider />
     <SectionTitle main>Technologies</SectionTitle>
-    <SectionText>I am confident in ....</SectionText>
+    <SectionText>
+      I have worked with the following programming languages and technologies to
+      build web and desktop applications alike. In particular, I frequently code
+      using Java which makes it the programming language that I am most
+      confident in.
+    </SectionText>
+    <SectionText>Programming Languages</SectionText>
     <div className='technologiesDiv'>
       <Image
         src={javaLogo}
@@ -76,7 +82,10 @@ const Technologies = () => (
         height={50}
       />
     </div>
-    <SectionText>I have worked with ....</SectionText>
+    <br></br>
+    <br></br>
+    <br></br>
+    <SectionText>Platforms and Technologies</SectionText>
     <div className='technologiesDiv'>
       <Image
         src={reactLogo}
