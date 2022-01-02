@@ -4,7 +4,7 @@ import {
   SectionTitle,
   SectionText,
 } from '../GlobalComponents/GlobalComponents'
-import { Social } from '../Projects/ProjectStyles'
+import { Social } from './HeroStyles'
 import { LeftSection } from './HeroStyles'
 import { FaGithub, FaLinkedin, FaSchool, FaEnvelope } from 'react-icons/fa'
 

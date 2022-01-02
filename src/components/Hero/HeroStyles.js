@@ -15,3 +15,14 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `
+export const Social = styled.a`
+  color: #303c6c;
+  font-size: 1.9rem;
+  padding: 0.8rem 1.3rem;
+  background: #f4976c;
+  border-radius: 15px;
+  transition: 0.5s;
+  &:hover {
+    background: #fbae06;
+  }
+`

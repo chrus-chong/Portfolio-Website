@@ -17,8 +17,8 @@ export const Layout = ({ children }) => {
       <NavBar />
       <Container>
         <main>{children}</main>
-        <Footer />
       </Container>
+      <Footer />
     </>
   )
 }

@@ -24,7 +24,7 @@ const About = () => (
       <div className='aboutTextDiv'>
         <SectionText>
           I am currently a Year 2 Computer Science undergraduate at the National
-          University of Singapore.I love learning about the intricate computer
+          University of Singapore. I love learning about the intricate computer
           systems that we use or interact with on a daily basis. This is
           especially true when I see the link between theory and practical
           application of these concepts. While I am generally fond of creating

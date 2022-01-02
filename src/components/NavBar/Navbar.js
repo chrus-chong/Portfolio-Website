@@ -1,52 +1,45 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { FaFirstdraft, FaBars, FaTimes } from 'react-icons/fa'
+import Image from 'next/image'
+import logo from '/public/images/ChrusLogo.png'
 
 function Navbar() {
   const [click, setClick] = useState(false)
-  const [dropdown, setDropdown] = useState(false)
 
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
-
-  const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false)
-    } else {
-      setDropdown(true)
-    }
-  }
-
-  const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false)
-    } else {
-      setDropdown(false)
-    }
-  }
 
   return (
     <>
       <nav className='navbar'>
         <Link href='/'>
           <a className='navbar-logo' onClick={closeMobileMenu}>
-            EPIC
-            <FaFirstdraft className='fa-firstdraft' />
+            <Image
+              src={logo}
+              layout='intrinsic'
+              alt='ChrusLogo'
+              width={50}
+              height={50}
+            />
           </a>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           {click ? (
-            <FaTimes className='fas fa-times' color='#FFFFFF' />
+            <FaTimes className='fa-times' color='#000000' />
           ) : (
-            <FaBars className='fas fa-bars' color='#FFFFFF' />
+            <FaBars className='fa-bars' color='#000000' />
           )}
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li
-            className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
-          >
+          <li className='nav-item'>
+            <Link href='#about'>
+              <a className='nav-links' onClick={closeMobileMenu}>
+                About
+              </a>
+            </Link>
+          </li>
+          <li className='nav-item'>
             <Link href='#projects'>
               <a className='nav-links' onClick={closeMobileMenu}>
                 Projects
@@ -57,13 +50,6 @@ function Navbar() {
             <Link href='#tech'>
               <a className='nav-links' onClick={closeMobileMenu}>
                 Technologies
-              </a>
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link href='#experiences'>
-              <a className='nav-links' onClick={closeMobileMenu}>
-                Experiences
               </a>
             </Link>
           </li>
